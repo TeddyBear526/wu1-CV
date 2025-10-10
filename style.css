@@ -23,3 +23,8 @@ h1{
 body{
     background-color: darkgray;
 }
+
+main{
+    align-items: center;
+    display: grid;
+}
