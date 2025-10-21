@@ -1,4 +1,4 @@
-.sidebar {
+.sidebar{
     position: fixed;
     top: 0;
     left: 0;
@@ -10,18 +10,44 @@
     padding-top: 0.9rem;
     padding-left: 0.15rem;
     contain: content;
-
 }
-
 main{
     padding-left: 16rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 ul{
-    padding: 0;
-    padding-left: 1rem;
+    display: grid;
+    max-width: 20rem;
+    contain: content;
+}
+.quick-info{
+    padding-right: 4rem;
 }
 
-.list-p{
+.skill-bar-container {
+  width: 20rem;
+  height: 1.8rem;
+  background-color: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
 
+.skill-bar {
+  width: var(--percentage);
+  height: 100%;
+  background-color: rgb(103, 103, 255); 
+  line-height: 30px;        
+  text-align: right;        
+  padding-right: 10px;      
+  color: white;            
+  font-weight: bold;
+  font-family: sans-serif;
+  transition: width 1.5s ease-out; 
+}
+h2{
+    font-size: 1.7rem;
 }
