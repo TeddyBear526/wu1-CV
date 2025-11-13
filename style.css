@@ -11,7 +11,7 @@
     padding-top: 0.9rem;
     padding-left: 0.15rem;
     contain: content;
-    flex-basis: var(16rem);
+    flex-basis: 16rem;
     flex-grow: 1;
 }
 img{
@@ -88,7 +88,7 @@ h4{
 
 }
 .centered-layout {
-  max-width: min(var(63rem), 100vw);
+  max-width: 63rem, 100vw;
   margin-inline: auto;
   padding-inline: 1rem;
 }
